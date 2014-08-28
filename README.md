@@ -1,3 +1,5 @@
+[![Build Status](https://semaphoreapp.com/api/v1/projects/d98c7715-e306-456a-90db-7fc97b24a2d1/237917/badge.png)](https://semaphoreapp.com/cmlh/python-instagram)
+
 python-instagram
 ======
 A Python client for the Instagram REST and Search APIs
