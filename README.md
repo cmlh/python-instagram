@@ -199,6 +199,22 @@ authentication, subscriptions, and update processing. To try it out:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
+Install the dependenices:
+```
+pip install bottle
+pip install bottle-session
+```
+Replace the exported values of Environment Variables for http://redislabs.com/ and http://instagram.com/developer/clients/manage/ below:
+``` 
+export REDISCLOUD_URI=redis://rediscloud:password@host:port
+export CLIENT_ID=client_id
+export CLIENT_SECRET=client_secret
+export REDIRECT_URI=redirect_uri 
+```
+Execute the sample application:
+```
+python sample_app.py
+```
 Contributing
 ------------
 In the spirit of [free software](http://www.fsf.org/licensing/essays/free-sw.html), **everyone** is encouraged to help improve this project.
