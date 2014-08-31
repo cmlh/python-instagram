@@ -195,7 +195,7 @@ api.geography_recent_media(count, max_id, geography_id)*
 Sample app
 ------
 This repository includes a one-file sample app that uses the bottle framework and demonstrates
-authentication, subscriptions, and update processing. To try it out:
+authentication, subscriptions, and update processing. To try it out at https://python-instagram.herokuapp.com/
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
